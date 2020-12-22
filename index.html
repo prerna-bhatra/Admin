@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login And Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form" action="#login-page">
+                <input type="text" placeholder="Organization Id" required="true">
+                 <input type="text" placeholder="Name " required="true">
+                  <input type="number" placeholder="Phone " required="true">
+                   <input type="text" placeholder="Designation " required="true">
+                <input type="email" placeholder="email " required="true">
+                <input type="password" placeholder="password" required="true">
+                  <input type="password" name="confirmpassword" placeholder="Confirm Password" required="true">
+                <button>Create</button>
+                <p class="message">Already Registered? <a href="#" style="color: black; font-weight: bold;font-size:15px">Login</a></p>
+            </form>
+
+            <form class="login-form" action="Dashboard.html">
+                <input type="text" placeholder="Organization Id" required="true">
+                <input type="password" placeholder="password" required="true">
+                <button>Login</button>
+                <p class="message">Not Registered? <a style="color: white; font-weight: bold;font-size:15px" href="#">Register</a></p>
+                <p><a style="color: black; font-weight: bold;font-size:15px" href="#">Forgot Password</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+
+    <script>
+        $('.message a').click(function() {
+        $('form').animate({height: "toggle", opacity: "toggle"},"slow");
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,127 @@
+body {
+    background: #f0f0f0;  
+}
+ul  li
+{
+	list-style: none;
+	display: inline-block;
+}
+#sidebar
+{
+	background: black;
+	padding-top: 40px;
+
+}
+#sidebar a
+{
+	color: white;
+	font-size:20px;
+}
+.nav  li
+{
+	margin-right: 20px;
+	font-size: 20px;
+
+}
+#Dashboard p,h4
+{
+	color: black
+}
+
+.nav li a
+{
+	color: white;
+}
+.nav li a:hover
+{
+	color: black;
+}
+#Dashboard  #Dashboard1
+{
+	background: #4eb055;
+	padding: 30px 30px 30px 30px;
+	margin: 10px 10px 10px 10px;
+	cursor: pointer;
+	color: black;
+
+}
+
+#Dashboard  #Dashboard2
+{
+	background: #fd9702;
+	padding: 30px 30px 30px 30px;
+	margin: 10px 10px 10px 10px;
+	cursor: pointer;
+	color: black;
+	
+}
+
+#Dashboard  #Dashboard3
+{
+	background: #77bff6;
+	padding: 30px 30px 30px 30px;
+	margin: 10px 10px 10px 10px;
+	cursor: pointer;
+	color: black;
+	
+}
+#Dashboard  #Dashboard4
+{
+	background: #e64538;
+	padding: 30px 30px 30px 30px;
+	margin: 10px 10px 10px 10px;
+	cursor: pointer;
+	color: black;
+	
+}
+#Dashboard  #Dashboard5
+{
+	background: #f55ed7;
+	padding: 30px 30px 30px 30px;
+	margin: 10px 10px 10px 10px;
+	cursor: pointer;
+	color: black;
+	
+}
+.nav
+{
+	float: right;
+}
+
+.w3-sidebar
+{
+	position: relative;
+	top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  #sidebar {
+    width: 100000px;
+
+  }
+  #sidebar a
+  {
+  	font-size:8px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
