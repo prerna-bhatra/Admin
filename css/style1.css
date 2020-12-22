@@ -83,6 +83,16 @@ ul  li
 	color: black;
 	
 }
+#Dashboard  #Dashboard6
+{
+	background: lime;
+	padding: 30px 30px 30px 30px;
+	margin: 10px 10px 10px 10px;
+	cursor: pointer;
+	color: black;
+
+}
+
 .nav
 {
 	float: right;
